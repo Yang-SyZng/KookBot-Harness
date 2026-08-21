@@ -1,10 +1,11 @@
-from pathlib import Path
+__version__ = "0.0.1_alpha.3"
 
+from pathlib import Path
 from pydantic import AnyHttpUrl, Field, SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 from src.i18n import Language
-
+from src.logging_setup import configure_logging
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
@@ -29,3 +30,8 @@ class AppSettings(BaseSettings):
         case_sensitive=False,
         extra="ignore",
     )
+
+    def model_post_init(self, __context: object) -> None:
+        """Configure application logging using the resolved workspace root."""
+        configure_logging(self.workspace_root)
+
