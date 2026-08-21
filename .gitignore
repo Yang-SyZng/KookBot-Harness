@@ -1,7 +1,7 @@
 .env
 .venv/
 .vscode/
-__pycache__/
 *.py[cod]
 workspaces/
+__pycache__
 tests
