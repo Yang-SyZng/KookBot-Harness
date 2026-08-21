@@ -1,6 +1,6 @@
 # KookBot Harness
 
-![version](https://img.shields.io/badge/version-0.0.1__alpha.2-blue)
+![version](https://img.shields.io/badge/version-0.0.1__alpha.3-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Yang-SyZng/KookBot-Harness?logo=github)
 ![github stars](https://img.shields.io/github/stars/Yang-SyZng/KookBot-Harness?style=social)
 
