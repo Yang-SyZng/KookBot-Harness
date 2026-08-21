@@ -1,7 +1,7 @@
 from typing import Protocol
 
 from src.i18n import Language, kook_message
-from src.models import AgentRequest, AgentResult
+from src.agent.schema import AgentRequest, AgentResult
 
 
 class AgentServicePort(Protocol):

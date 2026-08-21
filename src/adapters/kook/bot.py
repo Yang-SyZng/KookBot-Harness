@@ -1,13 +1,13 @@
 from agents import set_tracing_disabled
 from khl import Bot, Message
 
+from src import AppSettings
 from src.adapters.kook.attachments import AttachmentDownloader
 from src.adapters.kook.ingress import KookIngress
 from src.adapters.kook.normalizer import KookNormalizer
 from src.adapters.kook.renderer import KookRenderer
 from src.agent.bridge import AgentBridge
 from src.agent.service import AgentService
-from src.config import AppSettings
 from src.runtime.dedupe import MessageDeduplicator
 
 

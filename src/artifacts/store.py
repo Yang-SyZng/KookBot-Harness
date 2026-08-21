@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from src.models import Artifact
+from src.agent.schema import Artifact
 
 
 class ArtifactStore:

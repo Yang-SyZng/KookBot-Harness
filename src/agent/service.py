@@ -4,8 +4,8 @@ from agents import Agent, ModelSettings, OpenAIChatCompletionsModel, Runner, fun
 from openai import AsyncOpenAI
 
 from src.agent.file_tools import TaskFileTools
-from src.config import AppSettings
-from src.models import AgentResult
+from src import AppSettings
+from src.agent.schema import AgentResult
 
 
 class AgentService:

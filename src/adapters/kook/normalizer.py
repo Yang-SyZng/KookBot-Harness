@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 
 from khl import Bot, Message, MessageTypes
 
-from src.models import Attachment, IncomingMessage
+from src.adapters.kook.schema import Attachment, IncomingMessage
 
 
 class KookNormalizer:

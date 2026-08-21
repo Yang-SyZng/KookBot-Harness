@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 
 import httpx
 
-from src.models import Attachment
+from src.adapters.kook.schema import Attachment
 
 
 class AttachmentError(ValueError):

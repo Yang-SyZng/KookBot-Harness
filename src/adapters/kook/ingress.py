@@ -4,7 +4,7 @@ from src.ver import version
 
 from khl import Message
 
-from src.models import AgentRequest, AgentResult
+from src.agent.schema import AgentRequest, AgentResult
 from src.runtime.workspace import task_workspace
 from src.adapters.kook.normalizer import KookNormalizer
 from src.adapters.kook.renderer import KookRenderer
